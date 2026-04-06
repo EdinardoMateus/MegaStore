@@ -1,4 +1,4 @@
-use megastore_search::{Product, SearchEngine};
+use megastore::{Product, SearchEngine};
 
 #[test]
 fn test_insert_and_search_by_id() {

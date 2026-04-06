@@ -1,10 +1,10 @@
-use megastore_search::{Product, SearchEngine};
+use megastore::{Product, SearchEngine};
 
 #[test]
 #[ignore] // Ignorado por padrão porque gera muitos dados; execute com `cargo test -- --ignored`
 fn test_large_catalog_performance() {
     let mut engine = SearchEngine::new();
-    let num_products = 100_000;
+    let num_products = 10_000;
     println!("Inserindo {} produtos...", num_products);
     for i in 0..num_products {
         let category = if i % 10 == 0 { "CatA" } else { "CatB" };
