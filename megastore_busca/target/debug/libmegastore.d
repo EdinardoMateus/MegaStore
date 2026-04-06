@@ -1,0 +1,1 @@
+/workspaces/MegaStore/megastore_busca/target/debug/libmegastore.rlib: /workspaces/MegaStore/megastore_busca/src/graph.rs /workspaces/MegaStore/megastore_busca/src/index.rs /workspaces/MegaStore/megastore_busca/src/lib.rs /workspaces/MegaStore/megastore_busca/src/product.rs /workspaces/MegaStore/megastore_busca/src/search.rs
