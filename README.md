@@ -22,7 +22,7 @@ Este projeto implementa um motor de busca e recomendação para o catálogo da M
 use megastore_busca::{Product, SearchEngine};
 
 let mut engine = SearchEngine::new();
-engine.add_product(Product::new(1, "Smartphone Edge 60", "5G", "Motorora", "Eletrônicos", 3799.99));
+engine.add_product(Product::new(1, "Smartphone Edge 60", "5G", "Motorola", "Eletrônicos", 3799.99));
 let results = engine.search_by_name("smartphone Edge 60");
 
 ## Arquitetura
